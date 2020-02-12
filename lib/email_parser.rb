@@ -11,6 +11,6 @@ class EmailAddressParser
     @parse=str
   end
   def parse=(str)
-    arr = str.split(",")
+    arr = str.split(", ")
   end
 end
